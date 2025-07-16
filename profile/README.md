@@ -6,7 +6,7 @@
 ｜｜ readme.md   
 ｜｜ ...... (source code)  
 ｜-paper  
-｜｜-tex  
+｜｜-tex (LaTeX source files)  
 ｜｜ *.pdf  
 ｜dockerfile/executable file (if any)  
 
