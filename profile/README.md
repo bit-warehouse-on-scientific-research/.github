@@ -1,13 +1,19 @@
 ## 1. Please create the repository within the following directory structure:
    
-｜-code  
-｜｜-dataset (if any)  
-｜｜-result  
-｜｜ readme.md   
-｜｜ ...... (source code)  
-｜-paper  
-｜｜-tex (LaTeX source files)  
-｜｜ *.pdf  
-｜dockerfile/executable file (if any)  
+Repository of Research Paper/
+├── Code(Required)/
+│   ├── README.md
+│   ├── result
+│   ├── ...
+│   └── data(Optional)
+├── paper(Required)/
+│   ├── .tex(Required, LaTex Source file)
+│   ├── ...
+│   ├── .md(Optional, files or other format of response/rebuttal record)
+│   └── .pdf(Optional)
+├── docker(Optional)/
+│   ├── dockerfile
+│   └── README.md
+└── README.md
 
 ## 2. Please set the repository permissions to your team.
