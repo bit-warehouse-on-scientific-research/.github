@@ -1,4 +1,4 @@
-# Submission Guidelines for Research Repositories
+# Guidelines
 
 ## 1. Repository Structure
 
