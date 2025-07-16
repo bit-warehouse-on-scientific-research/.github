@@ -2,8 +2,8 @@
    
 ｜-code  
 ｜｜-dataset (if any)  
-｜｜-result
-｜｜ readme.md  
+｜｜-result  
+｜｜ readme.md   
 ｜｜ ...... (source code)  
 ｜-paper  
 ｜｜-tex  
