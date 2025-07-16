@@ -1,25 +1,36 @@
-## 1. Please create the repository within the following directory structure:
+# Submission Guidelines for Research Repositories
+
+## 1. Repository Structure
+
+Please organize your repository following the directory structure below:
 ```
 Repository of Research Paper/
-├── Code(Required)/
-│   ├── README.md
-│   ├── result
-│   ├── ...
-│   └── dataset(Optional)
-├── paper(Required)/
-│   ├── .tex(Required, LaTex Source file)
-│   ├── ...
-│   ├── .md(Optional, files or other format of response/rebuttal record)
-│   └── .pdf(Optional)
-├── docker(Optional)/
-│   ├── dockerfile
-│   └── README.md
-└── README.md
+├── code (required)/
+│ ├── README.md
+│ ├── result/
+│ ├── ...
+│ └── dataset (optional)/
+├── paper (required)/
+│ ├── tex (required, LaTeX source file)/
+│ ├── ...
+│ ├── .* (optional, response/rebuttal records in any format)
+│ └── .pdf (optional)
+├── docker (optional)/
+│ ├── Dockerfile
+│ └── README.md
+└── README.md (optional)
 ```
-`Code` contains the source code, result and dataset of paper, if the dataset is generated from a strategy proposed of your paper, you should upload the basic dataset. Furthermore, you should provide the README which can reproduce your experiment in the paper.
+### Details for Each Folder:
+- **`code/`**  
+  This folder should include the source code, results, and dataset (if any) related to your paper. If your paper generates a dataset as part of its proposed methodology, you must upload the essential dataset here. Additionally, a `README.md` file is required to provide clear instructions for reproducing the experiments described in your paper.  
 
-`paper` contains the compile file of your paper in LaTex or word. If you willing to share your response and rebuttal experiment your paper, you can upload the record of it in any format.
+- **`paper/`**  
+  This folder should contain the compiled paper files, preferably in LaTeX. Optionally, you can include a `.pdf` version of the paper and records of responses or rebuttals any format.  
 
-`docker` if your experiment is run in the docker, you should upload your dockerfiles. Also, you should write the instruction of the dockerfile.
+- **`docker/`**  
+  If your experiments rely on Docker, include the necessary `Dockerfile` and a `README.md` with instructions for building and running the Docker container.  
 
-## 2. Please set the repository permissions to your team.
+
+## 2. Repository Permissions
+
+Ensure the repository permissions are set to allow access for your team members. 
