@@ -9,7 +9,6 @@ Repository of Research Paper/
 │ ├── README.md
 │ ├── ...
 │ └── result/
-
 ├── paper (required)/
 │ ├── tex (required, LaTeX source file)/
 │ ├── ...
