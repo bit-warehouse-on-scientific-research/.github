@@ -18,6 +18,7 @@ Repository of Research Paper/
 │ ├── Dockerfile
 │ └── README.md
 ├── dataset (optional)/
+├── figures (required)/
 └── README.md (optional)
 ```
 ### Details for Each Folder:
@@ -31,6 +32,8 @@ Repository of Research Paper/
   If your experiments rely on Docker, include the necessary `Dockerfile` and a `README.md` with instructions for building and running the Docker container.
 - **`dataset/`**
   This folder should include the dataset related to your paper. Additionally, if your paper generates a dataset as part of its proposed methodology, you must upload the essential dataset here.
+- **`figures/`**
+  This folder should include the figures source files in your paper. For example, power point, visio, draw.io and etc.
 
 
 ## 2. Repository Permissions
